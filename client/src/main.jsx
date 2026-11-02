@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import AuthProvider from "./context/AuthProvider.jsx";
 import "./index.css";
 import "./styles/auth.css";
+import "./styles/shop.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
