@@ -1,0 +1,76 @@
+/* Navbar user area */
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #e6f2f2;
+  padding: 0.4rem 0.5rem;
+}
+
+.nav-button {
+  background: transparent;
+  color: #e6f2f2;
+  border: 1px solid #7fb5b5;
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background: var(--color-primary-dark);
+}
+
+/* Forms */
+.form-card {
+  max-width: 420px;
+  margin: 1rem auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.form-card h1 {
+  margin-top: 0;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.form-field label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.form-field input {
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-field input:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
+
+.form-hint {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+.form-card .btn {
+  width: 100%;
+}
+
+.form-footer {
+  margin: 1rem 0 0;
+  text-align: center;
+  color: var(--color-muted);
+}
